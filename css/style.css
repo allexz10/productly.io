@@ -613,6 +613,10 @@ top: 11px;
     .team__item--3{
         bottom: 55px;
     }
+    .blog__title{
+        padding-top: 100px;
+    }
+    
 }
 
 @media (max-width: 1040px){
@@ -660,7 +664,7 @@ top: 11px;
     }
     .tools__items{
         flex-wrap: wrap;
-    }
+    }    
     
     .tools__item-img{
         margin-bottom: 10px;
@@ -671,6 +675,7 @@ top: 11px;
     .direction__item-img{
         width: 50%;
     }
+    
 }
 
 @media (max-width: 860px){
@@ -688,6 +693,7 @@ top: 11px;
         order: -1;
         margin-bottom: 25px;
     }
+
     .team__item--2{
         bottom: 210px;
     }
@@ -696,9 +702,10 @@ top: 11px;
         top: 110px;
     }
     .team__item--3{
-        bottom: 55px;
-        right: 120px;
+        bottom: 25px;
+        right: 245px;    
     }
+
     .footer__inner{
         flex-wrap: wrap;
         padding: 60px 0 60px;
@@ -707,9 +714,12 @@ top: 11px;
         width: 100%;
         margin-top: 25px;
     }
+    
+    
 }
 
 @media (max-width: 767px){
+    
     .design__inner{
         padding: 100px 0 60px;
     }
@@ -717,9 +727,14 @@ top: 11px;
         padding: 55px 0 50px;
     }
     .team__item--4 {
-        left: 193px;
+        left: 220px;
     }
-}
+    .team__item--3 {
+        bottom: 30px;
+        right: 200px;
+    }
+}  
+
 
 @media (max-width: 650px){
 .team__item{
